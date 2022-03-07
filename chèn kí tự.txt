@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string a,s;
+    int b;
+    cin>>a>>b>>s;
+    for(int i=0;i<b;i++)
+    cout<<a[i];
+    cout<<s;
+    for(int i=b;i<a.length();i++)
+    cout<<a[i];
+    return 0;
+}
